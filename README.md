@@ -1,1 +1,14 @@
 # NUMPY-TENSOR
+import numpy as np
+
+scalar = np.array(5)
+print(scalar)
+print("Shape:", scalar.shape)
+
+tensor_3d = np.array([
+    [[1, 2], [3, 4]],
+    [[5, 6], [7, 8]]
+])
+
+print(tensor_3d)
+print("Shape:", tensor_3d.shape)
